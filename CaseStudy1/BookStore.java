@@ -25,7 +25,7 @@ public class BookStore {
 			books[foundBookNumber].showDetails();
 		}else {
 			System.out.println("\n not found\n");
-			System.out.println("The title " + title +  " is not found");
+			System.out.println("The title : " + title +  " is not found");
 		}
 	}
 	
@@ -44,7 +44,7 @@ public class BookStore {
 			books[foundAuthorNumber].showDetails();
 		}else {
 			System.out.println("\n not found\n");
-			System.out.println("The author " + author + " is not found");
+			System.out.println("The author : " + author + " is not found");
 		}
 	}
 	
