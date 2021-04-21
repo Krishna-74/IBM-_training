@@ -9,7 +9,7 @@ public class ObjectInputStreamOneBatsMan {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
 		ObjectInputStream ois = new ObjectInputStream(new FileInputStream("records.dat"));
-		BatsMan bt1 = (BatsMan) ois.readObject();
+		BatsMan b1 = (BatsMan) ois.readObject();
 		System.out.println(bt1);
 
 	}
