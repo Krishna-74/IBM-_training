@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 
-public class ObjectInputStreamOneBatsMan {
+public class ObjectInputStreamOne {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
 		ObjectInputStream ois = new ObjectInputStream(new FileInputStream("records.dat"));
